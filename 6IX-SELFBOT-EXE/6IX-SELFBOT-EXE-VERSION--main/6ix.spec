@@ -3,8 +3,8 @@
 block_cipher = None
 
 
-a = Analysis(['6ix.py'],
-             pathex=['C:\\Users\\MarrV\\Desktop\\6ix-master'],
+a = Analysis(['NDL.py'],
+             pathex=['C:\\Users\\MarrV\\Desktop\\NDL-master'],
              binaries=[],
              datas=[],
              hiddenimports=[],
@@ -23,7 +23,7 @@ exe = EXE(pyz,
           a.zipfiles,
           a.datas,
           [],
-          name='6ix',
+          name='NDL',
           debug=False,
           bootloader_ignore_signals=False,
           strip=False,
